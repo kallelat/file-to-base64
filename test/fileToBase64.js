@@ -1,6 +1,6 @@
 import "babel-polyfill";
 import { expect } from "chai";
-import fileToBase64 from "../lib/fileToBase64";
+import { fileToBase64 } from "../lib/fileToBase64";
 
 describe("fileToBase64.js", () => {
   it("parse example file", async () => {
