@@ -1,5 +1,5 @@
 {
-  "name": "file-to-base64",
+  "name": "file-base64-util",
   "version": "1.0.0",
   "description": "Convert any file to Base64 string",
   "main": "index.js",
