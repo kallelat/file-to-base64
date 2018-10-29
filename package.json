@@ -1,0 +1,42 @@
+{
+  "name": "file-to-base64",
+  "version": "1.0.0",
+  "description": "Convert any file to Base64 string",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -d lib/ src/",
+    "prepublish": "npm build",
+    "test": "npm run build && nyc mocha --require babel-core/register",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kallelat/file-to-base64.git"
+  },
+  "keywords": [
+    "file",
+    "base64",
+    "string",
+    "convert"
+  ],
+  "author": "Timo Kallela <timo.kallela@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kallelat/file-to-base64/issues"
+  },
+  "homepage": "https://github.com/kallelat/file-to-base64#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.2.0",
+    "coffeescript": "^2.3.2",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "dependencies": {}
+}
