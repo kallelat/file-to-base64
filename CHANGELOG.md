@@ -1,5 +1,9 @@
 # changelog
 
+## 1.2.2
+
+- proper links to readme.md
+
 ## 1.2.1
 
 -better usage example
