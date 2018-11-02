@@ -1,5 +1,9 @@
 # changelog
 
+## 1.2.3
+
+- fixed typo in readme.md
+
 ## 1.2.2
 
 - proper links to readme.md

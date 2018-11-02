@@ -21,4 +21,4 @@ Please see [CHANGELOG.md](https://github.com/kallelat/file-to-base64/blob/master
 
 ## license
 
-rrggbbaa is freely distributable under the terms of the [MIT license](https://github.com/kallelat/file-to-base64/blob/master/LICENSE).
+file-to-base64 is freely distributable under the terms of the [MIT license](https://github.com/kallelat/file-to-base64/blob/master/LICENSE).
